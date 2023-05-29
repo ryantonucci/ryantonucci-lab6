@@ -5,6 +5,7 @@ import java.util.Random;
 public class AdditionQuestion implements Question{
     private int operand1;
     private int operand2;
+
     public AdditionQuestion(Random rand) {
         this.operand1 = rand.nextInt(0, 12);
         this.operand2 = rand.nextInt(0, 12);

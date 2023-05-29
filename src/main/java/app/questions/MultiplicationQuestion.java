@@ -8,6 +8,8 @@ public class MultiplicationQuestion implements Question{
     public MultiplicationQuestion(Random rand) {
         this.operand1 = rand.nextInt(0, 12);
         this.operand2 = rand.nextInt(0, 12);
+        ArithmeticQuestion symbol = new ArithmeticQuestion();
+        symbol.operatorSymbol = 'x';
     }
     @Override
     public String getPrompt() {
