@@ -1,0 +1,150 @@
+What is the area of a circle?
+2πr
+~>πr²
+πr
+π
+
+What is the circumference of a circle?
+~>2πr
+πr²
+πr
+π
+
+What is the volume of a sphere?
+4/3π³r
+~>4/3πr³
+4πr³
+πr³
+
+What is the volume of a cylinder?
+4/3πr² x height
+2πr x height
+~>πr² x height
+
+What is the area of a rectangle?
+(base x height) / 2
+~>base x height
+base²
+
+What is the area of a triangle?
+~>(base x height) / 2
+base x height
+base / height
+
+The longest side of a right angle triangle is called the...
+hippopotamus
+hypotension
+~>hypotenuse
+
+A triangle with equal-length sides is called a...
+~>equilateral
+isosceles
+scalene
+
+A triangle with only two equal-length sides is called a...
+equilateral
+~>isosceles
+scalene
+
+A triangle with three unequal-length sides is called a...
+equilateral
+isosceles
+~>scalene
+
+In a right angle triangle with orthogonal side lengths 'a' and 'b', the length of the hypotenuse is...
+~>sqrt(a² + b²)
+sqrt(a + b)
+a² + b²
+a + b
+
+360 degrees in radians is
+π/2
+~>2π
+π
+
+180 degrees in radians is
+π/2
+2π
+~>π
+
+90 degrees in radians is
+2/π
+~>π/2
+π/4
+2π
+
+45 degrees in radians is
+4/π
+~>π/4
+4π
+
+2π radians is
+~>360 degrees
+180 degrees
+90 degrees
+45 degrees
+
+π radians is
+360 degrees
+~>180 degrees
+90 degrees
+45 degrees
+
+π/2 radians is
+360 degrees
+180 degrees
+~>90 degrees
+45 degrees
+
+π/4 radians is
+360 degrees
+180 degrees
+90 degrees
+~>45 degrees
+
+A square is a rectangle
+~>True
+False
+
+All triangles have a hypotenuse
+True
+~>False
+
+The area of a circle with radius r is larger than the area of square with side length r
+~>True
+False
+
+How many sides does a triangle have?
+~>3
+4
+5
+6
+7
+
+How many sides does a quadrilateral have?
+3
+~>4
+5
+6
+7
+
+How many sides does a pentagon have?
+3
+4
+~>5
+6
+8
+
+How many sides does a hexagon have?
+3
+4
+5
+~>6
+8
+
+How many sides does an octagon have?
+3
+4
+5
+6
+~>8
