@@ -17,7 +17,7 @@ public class QuestionFactory {
         Question[] questions = new Question[n];
 
         for ( int i = 0; i < n ; i++ ) {
-            questions[i] = new Question(new Random());
+            questions[i] = new MultiplicationQuestion(new Random());
         }
 
         return questions;

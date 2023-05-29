@@ -17,7 +17,7 @@ public class ConsoleUITests {
 
     public static Question mockQuestion(String prompt, String validityMessage, String[] resultSequence) {
 
-        return new Question(new Random()) {
+        return new Question() {
             private int resultIdx = 0;
 
             @Override

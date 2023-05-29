@@ -2,16 +2,16 @@ package app.questions;
 
 import java.util.Random;
 
-public class MultiplicationQuestion implements Question{
+public class AdditionQuestion implements Question{
     private int operand1;
     private int operand2;
-    public MultiplicationQuestion(Random rand) {
+    public AdditionQuestion(Random rand) {
         this.operand1 = rand.nextInt(0, 12);
         this.operand2 = rand.nextInt(0, 12);
     }
     @Override
     public String getPrompt() {
-        return "What is %d x %d? ".formatted(operand1, operand2);
+        return "What is %d + %d? ".formatted(operand1, operand2);
     }
     @Override
     public String getValidityMessage() {
@@ -22,7 +22,7 @@ public class MultiplicationQuestion implements Question{
         try {
             double answerAsDouble = Double.parseDouble(answer);
 
-            if (answerAsDouble == (double)(operand1 * operand2)) {
+            if (answerAsDouble == (double)(operand1 + operand2)) {
                 return ANSWER_CORRECT;
             }
             return ANSWER_INCORRECT;
@@ -31,5 +31,4 @@ public class MultiplicationQuestion implements Question{
             return ANSWER_INVALID;
         }
     }
-
 }
