@@ -8,7 +8,7 @@ public class DivisionQuestion extends ArithmeticQuestion{
         operand2 = rand.nextInt(0, 12);
         operand1 = rand.nextInt(0, 12);
         operand1 = operand1 * operand2;
-        operatorSymbol = '/';
+        operatorSymbol = '÷';
     }
     @Override
     public double calculateAnswer(){

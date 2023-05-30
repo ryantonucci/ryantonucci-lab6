@@ -5,7 +5,7 @@ public abstract class ArithmeticQuestion implements Question{
     protected int operand2;
     protected char operatorSymbol;
     public String getPrompt() {
-        return "What is %d %d %d? ".formatted(operand1, operatorSymbol, operand2);
+        return "What is %s %s %s? ".formatted(operand1, operatorSymbol, operand2);
     }
 
     public String getValidityMessage() {
