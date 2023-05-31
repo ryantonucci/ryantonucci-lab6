@@ -13,6 +13,4 @@ public class MultiplicationQuestion extends ArithmeticQuestion{
     public double calculateAnswer(){
         return operand1 * operand2;
     }
-
-
 }
