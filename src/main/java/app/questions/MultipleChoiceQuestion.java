@@ -13,42 +13,16 @@ public class MultipleChoiceQuestion implements Question {
     public MultipleChoiceQuestion(String questionText, String[] choices, int correctChoiceIdx) {
         this.questionText = questionText;
         this.choices = choices;
-        for (int i = 0; i < choices.length;i++){
-            if (i==0){
-                choices[i] = "A) " + choices[i];
-            }
-            else if (i==1){
-                choices[i] = "B) " + choices[i];
-            }
-            else if (i==2){
-                choices[i] = "C) " + choices[i];
-            }
-            else if (i==3){
-                choices[i] = "D) " + choices[i];
-            }
-            else if (i==4){
-                choices[i] = "E) " + choices[i];
-            }
-            else if (i==5){
-                choices[i] = "F) " + choices[i];
-            }
-            else if (i==6){
-                choices[i] = "G) " + choices[i];
-            }
-            else if (i==7){
-                choices[i] = "H) " + choices[i];
-            }
-            else if (i==8){
-                choices[i] = "I) " + choices[i];
-            }
-            else if (i==9){
-                choices[i] = "J) " + choices[i];
-            }
-        }
         this.correctChoiceIdx = correctChoiceIdx;
     }
     public String getPrompt(){
-        return questionText + "\n" + choices + "\n What is your answer?";
+        StringBuilder prompt = new StringBuilder(questionText + "\n");
+        for (int i = 0; i < choices.length; i++) {
+            prompt.append((char) ('A' + i)).append(") ").append(choices[i]).append("\n");
+        }
+        prompt.append("What is your answer?");
+
+        return prompt.toString();
 
     }
     public String getValidityMessage() {
