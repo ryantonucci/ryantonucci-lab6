@@ -14,7 +14,4 @@ public class DivisionQuestion extends ArithmeticQuestion{
     public double calculateAnswer(){
         return (double) operand1 / operand2;
     }
-//11
-    //7*11
-
 }

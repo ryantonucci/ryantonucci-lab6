@@ -41,7 +41,7 @@ public class DataService {
                     int choiceIdx = i-1;
 
                     // The choice that starts with ~> is the correct answer
-                    if ( choice.startsWith("~>") ) {
+                    if ( choice.startsWith("~>")) {
                         choice = choice.replace("~>", "");
                         correctChoiceIdx = choiceIdx;
                     }

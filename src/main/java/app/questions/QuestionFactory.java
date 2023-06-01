@@ -24,7 +24,7 @@ public class QuestionFactory {
         Question[] questions = new Question[n];
 
         for (int i = 0; i < n; i++) {
-            int choice = rand.nextInt(0, 5);
+            int choice = rand.nextInt(0,5);
             if (choice == 0) {
                 questions[i] = new AdditionQuestion(rand);
             } else if (choice == 1) {
