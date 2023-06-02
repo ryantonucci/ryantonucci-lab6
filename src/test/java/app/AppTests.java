@@ -2,8 +2,22 @@ package app;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import app.questions.MultiplicationQuestion;
+import app.questions.Question;
+import app.questions.QuestionFactory;
+import data.DataService;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import ui.ConsoleUI;
+import util.TestUtils;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.Random;
+
+
 public class AppTests {
-/*
+
     @Test
     public void runImmediateExit() {
         var out = new ByteArrayOutputStream();
@@ -44,6 +58,6 @@ public class AppTests {
         assertTrue(output.contains("Do you want to take another quiz?"), "App must ask the user if they want to take a quiz after each quiz");
         assertTrue(output.trim().endsWith("Ok bye!"), "App must exit with a salutation");
     }
-*/
+
 
 }
